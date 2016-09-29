@@ -10,11 +10,12 @@ public class Person
       {
         initialAge=0;
         System.out.println("Age is not valid,setting age to 0..");
-      }
-      else
-      {
         age=initialAge;
       }
+    /*  else
+      {
+
+      }*/
     }
     void yearPasses()
     {
@@ -22,18 +23,23 @@ public class Person
     }
     void amIOld()
     {
-      if(age<13)
-      System.out.println("You are young..");
-      else if(age>=13 && age<18)
-      {
-        System.out.println("You are a teenager..");
-      }
-      else
-      {
-        System.out.println("You are old..");
-      }
+      for(int i=0;i<3;i++)
+        {
+        if(age<13)
+        {
+            System.out.println("You are young..");
+        }
+        else if(age>=13 && age<18)
+        {
+            System.out.println("You are a teenager..");
+        }
+        else
+        {
+            System.out.println("You are old..");
+        }
+        }
     }
-    public static void main(String[]args)
+    public static void main(String[]e)
     {
       Scanner sc = new Scanner(System.in);
       int T = sc.nextInt();
