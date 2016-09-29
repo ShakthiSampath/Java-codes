@@ -10,8 +10,9 @@ public class Person
       {
         initialAge=0;
         System.out.println("Age is not valid,setting age to 0..");
-        age=initialAge;
+
       }
+      age=initialAge;
     /*  else
       {
 
@@ -23,8 +24,7 @@ public class Person
     }
     void amIOld()
     {
-      for(int i=0;i<3;i++)
-        {
+
         if(age<13)
         {
             System.out.println("You are young..");
@@ -37,7 +37,7 @@ public class Person
         {
             System.out.println("You are old..");
         }
-        }
+
     }
     public static void main(String[]e)
     {
