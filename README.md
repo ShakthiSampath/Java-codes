@@ -1,4 +1,4 @@
 # Java-codes
 
-Repository contains Some Competitive Questions on Java.
-## Starting from _**Beginner Level**_
+Repository contains Some Competitive Questions on Java from
+## _**Beginner Level**_
