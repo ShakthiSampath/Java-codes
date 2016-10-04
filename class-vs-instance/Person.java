@@ -10,13 +10,12 @@ public class Person
       {
         initialAge=0;
         System.out.println("Age is not valid,setting age to 0..");
-
       }
-      age=initialAge;
-    /*  else
-      {
 
-      }*/
+      else if(initialAge>0)
+      {
+        age=initialAge;
+      }
     }
     void yearPasses()
     {
