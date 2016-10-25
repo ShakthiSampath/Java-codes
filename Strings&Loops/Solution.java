@@ -13,19 +13,11 @@ public class Solution {
         {
           if(i%2!=0)
           {
-
-            for(int j =0;j<S1.length;j++)
-            {
-              S1= S[j];
-            }
+            S1=S[i];
           }
           else
           {
-
-            for(int k =0;k<S2.length;i++)
-            {
-              S2= S[k];
-            }
+            S2=S[i];
           }
         }
         System.out.println(S1+"  "+S2);
