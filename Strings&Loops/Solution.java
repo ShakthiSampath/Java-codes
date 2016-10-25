@@ -6,11 +6,14 @@ public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String S = sc.next();
+        String S1 = sc.next();
+        String S2 = sc.next();
+
         for(int i=0;i<strlen;i++)
         {
           if(i%2!=0)
           {
-            String S1 = sc.next();
+          
             for(int i =0;i<strlen;i++)
             {
               S1= S[i];
@@ -18,7 +21,7 @@ public class Solution {
           }
           else
           {
-            String S2 = sc.next();
+
             for(int i =0;i<strlen;i++)
             {
               S2= S[i];
