@@ -9,15 +9,15 @@ public class Solution {
         String S1 = sc.next();
         String S2 = sc.next();
 
-        for(int i=0;i<S.length;i++)
+        for(int i=0;i<S.length();i++)
         {
           if(i%2!=0)
           {
-            S1=S[i];
+            S1 = Character.toString(S.charAt(i));
           }
           else
           {
-            S2=S[i];
+            S2 = Character.toString(S.charAt(i));
           }
         }
         System.out.println(S1+"  "+S2);
