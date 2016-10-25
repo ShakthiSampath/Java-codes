@@ -11,15 +11,7 @@ public class Solution {
 
         for(int i=0;i<S.length();i++)
         {
-          if(i%2!=0)
-          {
-            S1 = Character.toString(S.charAt(i));
-          }
-          else
-          {
-            S2 = Character.toString(S.charAt(i));
-          }
+
         }
-        System.out.println(S1+"  "+S2);
     }
 }
