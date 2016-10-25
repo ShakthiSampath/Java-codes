@@ -13,7 +13,7 @@ public class Solution {
             String S1 = sc.next();
             for(int i =0;i<strlen;i++)
             {
-              S1= S[i]
+              S1= S[i];
             }
           }
           else
@@ -21,7 +21,7 @@ public class Solution {
             String S2 = sc.next();
             for(int i =0;i<strlen;i++)
             {
-              S2= S[i]
+              S2= S[i];
             }
           }
         }
