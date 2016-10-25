@@ -12,9 +12,9 @@ public class Solution {
           String S = sc.next();      // new string created
           for(int i=0;i<S.length();i=i+2)
             {
-              System.out.print(S.charAt(i));    // charAt helps in handling characters individually from a string or array 
+              System.out.print(S.charAt(i));    // charAt helps in handling characters individually from a string or array
             }
-            System.out.print("  ");    // to create 2 space-separated strings
+            System.out.print(" ");        // to create 2 space-separated strings
           for(int j=1;j<S.length();j=j+2)
             {
               System.out.print(S.charAt(j));
