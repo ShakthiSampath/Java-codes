@@ -5,7 +5,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();  
         for(int a = 0; a < n; a++)
         {
 
@@ -14,13 +14,12 @@ public class Solution {
             {
               System.out.print(S.charAt(i));
             }
-
+            System.out.print("  ");
           for(int j=1;j<S.length();j=j+2)
             {
-              System.out.print("  ");
               System.out.print(S.charAt(j));
             }
-
+            System.out.println();
         }
 
     }
