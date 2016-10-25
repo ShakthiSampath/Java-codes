@@ -14,17 +14,17 @@ public class Solution {
           if(i%2!=0)
           {
 
-            for(int i =0;i<S1.length;i++)
+            for(int j =0;j<S1.length;j++)
             {
-              S1= S[i];
+              S1= S[j];
             }
           }
           else
           {
 
-            for(int i =0;i<S2.length;i++)
+            for(int k =0;k<S2.length;i++)
             {
-              S2= S[i];
+              S2= S[k];
             }
           }
         }
