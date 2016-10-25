@@ -9,12 +9,12 @@ public class Solution {
         String S1 = sc.next();
         String S2 = sc.next();
 
-        for(int i=0;i<strlen;i++)
+        for(int i=0;i<S.length;i++)
         {
           if(i%2!=0)
           {
-          
-            for(int i =0;i<strlen;i++)
+
+            for(int i =0;i<S1.length;i++)
             {
               S1= S[i];
             }
@@ -22,7 +22,7 @@ public class Solution {
           else
           {
 
-            for(int i =0;i<strlen;i++)
+            for(int i =0;i<S2.length;i++)
             {
               S2= S[i];
             }
