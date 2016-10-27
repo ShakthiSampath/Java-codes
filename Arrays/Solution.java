@@ -12,8 +12,11 @@ public class Solution {
             arr[i] = in.nextInt();
         }
 
-        for(int j=n-1;j<=0;j--){
-            System.out.print(arr[j]+" ");
+        int[] arr1= new int[];
+        int j= arr1.length();
+        while(j!=0){
+            System.out.print(arr1[j]+" ");
+            j--;
         }
         in.close();
     }
