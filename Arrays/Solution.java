@@ -12,11 +12,13 @@ public class Solution {
             arr[i] = in.nextInt();
         }
 
-        int[] arr1= new int[];
-        int j= arr1.length();
-        while(j!=0){
-            System.out.print(arr1[j]+" ");
-            j--;
+      //  int
+        //int[] arr1= new int[n];
+        for( int j=n-1;j>-1;j--)
+        {
+
+            System.out.print(arr[j]);
+            System.out.print(" ");
         }
         in.close();
     }
