@@ -4,8 +4,13 @@ import java.util.*;
 public class Solution {
     int factorial(int a)
     {
-      factorial(a)=a*factorial(a-1);
-      return a;
+      if(a==0)
+        return 0;
+      else
+      {
+        factorial(a)=a*factorial(a-1);
+        return a;
+      }
     }
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
