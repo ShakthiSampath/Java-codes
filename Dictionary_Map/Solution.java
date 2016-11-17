@@ -16,19 +16,15 @@ class Solution{
         }
         while(in.hasNext()){
             String s = in.next();
-            //Map <String,Integer> key = new HashMap <String,Integer>();
-            for(int i=0;i<phoneBook.size();i++){
-            key=phoneBook.keySet();
-            if(s.equals(key))
-            {
+            for (int i = 0; i < phoneBook.size(); i++) {
+            if(phoneBook.get(s)!=null){
               System.out.println(s+"="+phoneBook.get(s));
-            }
-            else
-            {
-                System.out.println("Not found");
-            }
+              break;}
+            else{
+              System.out.println("Not found");
+              break;}
           }
-          }
+        }
     in.close();
     }
 
