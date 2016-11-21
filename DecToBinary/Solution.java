@@ -13,8 +13,8 @@ public class Solution {
       {
         while(n!=0)
         {
-          n=n/2;
           rem[i]=n%2;
+          n=n/2;
           System.out.println(rem[i]);
           if(rem[i]==1)
             count++;
