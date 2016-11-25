@@ -13,15 +13,19 @@ public class Solution2 {
           n=n/2;
         }
 
-      for(int j =index-1;j>=0;j--)
-      {
-        System.out.print(rem[j]);
-        if(j>=1){
-        if(rem[j-n]==1)
-        count++;
+      for(int j=0;j<rem.length;){
+        if(rem[j]==1){
+          while(rem[j]==1){
+            j++;
+            count++;
+          }
+        }
+        else{
+          j++;
+          continue;
         }
       }
-      System.out.println();
+      //System.out.println();
       System.out.println(count);
     }
 }
