@@ -18,10 +18,14 @@ class Person {
 				"Name: " + lastName + ", " + firstName
 			+ 	"\nID: " + idNumber);
 	}
-
 }
 class Student extends Person{
 	private int[] testScores;
+
+  //Constructor
+  Student(String firstName, String lastName, int idNumber, int[] scores){
+    
+  }
 
 }
 
