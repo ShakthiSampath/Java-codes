@@ -19,26 +19,27 @@ class Person {
 			+ 	"\nID: " + idNumber);
 	}
 }
+
 class Student extends Person{
 	private int[] testScores;
+  int scores,avg,sum = 0;
 
   //Constructor
-  Student(String firstName, String lastName, int idNumber, int[] scores){
-    this.firstName=firstName;
-    this.lastName=lastName;
-    this.idNumber=idNumber;
-    this.testScores=scores;
+  Student(String firstName, String lastName, int idNumber, int[] testScores)
+  {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.idNumber = idNumber;
+    this.testScores[scores] = testScores[scores];
   }
 
   // calculate method
   char calculate(){
-    for(int i=0;i<numScores;i++)
+    for(int i=0;i<scores;i++)
     {
-      int sum = 0;
       sum=sum+testScores[i];
     }
-    int avg;
-    avg = sum/numScores;
+    avg = sum/scores;
 
     // Calculating Grade
     if(avg<=100 && avg>=90)
@@ -55,8 +56,7 @@ class Student extends Person{
       return 'T';
 
   }
-
-};
+}
 
 class Solution {
 	public static void main(String[] args) {
