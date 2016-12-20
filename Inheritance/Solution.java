@@ -22,24 +22,22 @@ class Person {
 
 class Student extends Person{
 	private int[] testScores;
-  int scores,avg,sum = 0;
+  int avg,count=0,sum = 0;
 
   //Constructor
-  Student(String firstName, String lastName, int idNumber, int[] testScores)
-  {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.idNumber = idNumber;
-    this.testScores[scores] = testScores[scores];
+  Student(String firstName, String lastName, int idNumber, int[] testScores){
+    super(firstName,lastName,idNumber);
+    this.testScores = testScores;
   }
 
   // calculate method
   char calculate(){
-    for(int i=0;i<scores;i++)
-    {
+    for(int i=0;i<testScores.length;i++){
       sum=sum+testScores[i];
+      count++;
     }
-    avg = sum/scores;
+
+    avg = sum/count;
 
     // Calculating Grade
     if(avg<=100 && avg>=90)
