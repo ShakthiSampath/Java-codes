@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Person {
+class Person {                        // class Person - base class
 	protected String firstName;
 	protected String lastName;
 	protected int idNumber;
@@ -13,14 +13,14 @@ class Person {
 	}
 
 	// Print person data
-	public void printPerson(){
+	public void printPerson(){                         // Printing all details
 		 System.out.println(
 				"Name: " + lastName + ", " + firstName
 			+ 	"\nID: " + idNumber);
 	}
 }
 
-class Student extends Person{
+class Student extends Person{       // class Student - derived class
 	private int[] testScores;
   int avg,count=0,sum = 0;
 
@@ -31,7 +31,7 @@ class Student extends Person{
   }
 
   // calculate method
-  char calculate(){
+  char calculate(){                 // calculate method - calculating average and grade
     for(int i=0;i<testScores.length;i++){
       sum=sum+testScores[i];
       count++;
