@@ -18,5 +18,9 @@ class Person {
 				"Name: " + lastName + ", " + firstName
 			+ 	"\nID: " + idNumber);
 	}
-	 
+
+}
+class Student extends Person{
+	private int[] testScores;
+
 }
