@@ -27,6 +27,9 @@ public class Solution {
             for(int i=0;i<3;i++)
             {
               char[] space = new char[len[i]];
+              for(int j=0;j<len[i];j++){
+                space[j] = ' ';
+              }
               System.out.print(str[i]);
               System.out.print(space);
               System.out.println(num[i]);
