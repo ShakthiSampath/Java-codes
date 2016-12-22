@@ -22,3 +22,15 @@ public class Solution {
                 else if(x.length()==1)
                   num[i]="00"+x;
             }
+
+            System.out.println("================================");
+            for(int i=0;i<3;i++)
+            {
+              char[] space = new char[len[i]];
+              System.out.print(str[i]);
+              System.out.print(space);
+              System.out.println(num[i]);
+            }
+            System.out.println("================================");
+    }
+}
