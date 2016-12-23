@@ -13,9 +13,9 @@ abstract class Book
 
 }
 
-public class MyBook
+public class MyBook extends Book
 {
-  
+
 }
 
 public class Solution
