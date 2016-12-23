@@ -12,14 +12,14 @@ abstract class Book
 
 }
 
-public class MyBook extends Book
+class MyBook extends Book
 {
     int price;
+    MyBook(String title,String author,int price){
 
-    MyBook(String ti,String au,int p){
-      title = ti;
-      author = au;
-      price = p;
+      super(title,author);
+      this.price = price;
+
     }
 
     void display(){
