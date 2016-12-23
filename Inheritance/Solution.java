@@ -26,12 +26,12 @@ class Student extends Person{       // class Student - derived class
 
   //Constructor
   Student(String firstName, String lastName, int idNumber, int[] testScores){
-    super(firstName,lastName,idNumber);
+    super(firstName,lastName,idNumber); // to reuse the variables of base class
     this.testScores = testScores;
   }
 
   // calculate method
-  char calculate(){                 // calculate method - calculating average and grade
+  char calculate(){        // calculate method - calculating average and grade
     for(int i=0;i<testScores.length;i++){
       sum=sum+testScores[i];
       count++;
@@ -70,7 +70,7 @@ class Solution {
 		scan.close();
 
 		Student s = new Student(firstName, lastName, id, testScores);
-		s.printPerson();
+		s.printPerson();          // printing details of the person
 		System.out.println("Grade: " + s.calculate() );
 	}
 }
