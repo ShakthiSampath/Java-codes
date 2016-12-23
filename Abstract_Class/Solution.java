@@ -10,21 +10,24 @@ abstract class Book
     }
     abstract void display();
 
-
 }
 
 public class MyBook extends Book
 {
     int price;
+
     MyBook(String ti,String au,int p){
-      this.title = ti;
-      this.author = au;
-      this.price = p;
+      title = ti;
+      author = au;
+      price = p;
     }
+
     void display(){
+
       System.out.println("Title: "+title);
       System.out.println("Author: "+author);
       System.out.println("Price: "+price);
+
     }
 }
 
